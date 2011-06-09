@@ -1,0 +1,2 @@
+/Users/loz/Documents/Stegbook/Classes/PhotoTableViewController.m: In function '-[PhotoTableViewController request:didLoad:]':
+/Users/loz/Documents/Stegbook/Classes/PhotoTableViewController.m:298: warning: unused variable 'numberOfPhotos'

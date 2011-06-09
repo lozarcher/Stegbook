@@ -1,0 +1,1300 @@
+TStegbook
+v7
+r0
+t311267170.951928
+cCheck dependencies
+cProcessInfoPlistFile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Info.plist Stegbook-Info.plist
+cCompileXIB /Users/loz/Documents/Stegbook/StegbookMain.xib
+cCpResource build/Debug-iphonesimulator/Stegbook.app/FBDialog.bundle Classes/FBDialog.bundle
+cCpResource build/Debug-iphonesimulator/Stegbook.app/LoginNormal.png Classes/LoginNormal.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/LoginPressed.png Classes/LoginPressed.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/LogoutNormal.png Classes/LogoutNormal.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/LogoutPressed.png Classes/LogoutPressed.png
+cCompileXIB /Users/loz/Documents/Stegbook/ConnectView.xib
+cCpResource build/Debug-iphonesimulator/Stegbook.app/icon_wifi.png Classes/icon_wifi.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/icon_tag_add.png Classes/icon_tag_add.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/icon_settings.png Classes/icon_settings.png
+cCpResource build/Debug-iphonesimulator/Stegbook.app/icon_tag.png Classes/icon_tag.png
+cProcessPCH /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch.gch Stegbook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/main.o /Users/loz/Documents/Stegbook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/StegbookAppDelegate.o /Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ConnectViewController.o /Users/loz/Documents/Stegbook/Classes/ConnectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSString+SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonBase.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonParser.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonWriter.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBRequest.o /Users/loz/Documents/Stegbook/Classes/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Facebook.o /Users/loz/Documents/Stegbook/Classes/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginDialog.o /Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBDialog.o /Users/loz/Documents/Stegbook/Classes/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginButton.o /Users/loz/Documents/Stegbook/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController.o /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumTableViewController.o /Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/PhotoViewController.o /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ImageViewController.o /Users/loz/Documents/Stegbook/Classes/ImageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook normal i386
+cGenerateDSYMFile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app.dSYM /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook
+cTouch /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C47368E0000000000000132
+t1279735438
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.h
+c000000004CDD06FB0000000000000228
+t1289553659
+s552
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m
+c000000004CDD139B0000000000001CAF
+t1289556891
+s7343
+i"AlbumTableViewController.h"
+i"PhotoViewController.h"
+i"StegbookAppDelegate.h"
+
+N/Users/loz/Documents/Stegbook/Classes/AlbumViewController.h
+c000000004CDBD2EF00000000000000F1
+t1289474799
+s241
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m
+c000000004CDBD57C000000000000126D
+t1289475452
+s4717
+i"AlbumViewController.h"
+
+N/Users/loz/Documents/Stegbook/Classes/ConnectViewController.h
+c000000004CDC70A7000000000000026D
+t1289515175
+s621
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+i"FBLoginButton.h"
+
+N/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m
+c000000004CDC70630000000000001466
+t1289515107
+s5222
+i"ConnectViewController.h"
+i"FBConnect.h"
+i"StegbookAppDelegate.h"
+
+N/Users/loz/Documents/Stegbook/Classes/DecodeViewController.h
+c000000004CDA9D4000000000000000F3
+t1289395520
+s243
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m
+c000000004CDA9D3F000000000000126C
+t1289395519
+s4716
+i"DecodeViewController.h"
+
+N/Users/loz/Documents/Stegbook/Classes/DecodeViewController.xib
+c000000004CDA9D240000000000001643
+t1289395492
+s5699
+
+N/Users/loz/Documents/Stegbook/Classes/EncodeView.h
+c000000004CDAA47300000000000000DA
+t1289397363
+s218
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/EncodeView.m
+c000000004CDAA473000000000000058C
+t1289397363
+s1420
+i"EncodeView.h"
+
+N/Users/loz/Documents/Stegbook/Classes/EncodeView.xib
+c000000004CDC016300000000000030E2
+t1289486691
+s12514
+
+N/Users/loz/Documents/Stegbook/Classes/EncodeViewController.h
+c000000004CDC01BD00000000000000EA
+t1289486781
+s234
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m
+c000000004CDAA5BF00000000000005A0
+t1289397695
+s1440
+i"EncodeViewController.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FBConnect.h
+c000000004CB8747D00000000000002C2
+t1287156861
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FBDialog.bundle
+c000000004CB8747D0000000000000066
+t1287156861
+s102
+
+N/Users/loz/Documents/Stegbook/Classes/FBDialog.h
+c000000004CB8747D00000000000011EE
+t1287156861
+s4590
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/FBDialog.m
+c000000004CB8747D00000000000056FD
+t1287156861
+s22269
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FBLoginButton.h
+c000000004CDA72A00000000000000131
+t1289384608
+s305
+i<Foundation/Foundation.h>
+
+N/Users/loz/Documents/Stegbook/Classes/FBLoginButton.m
+c000000004CDA75CA00000000000004D6
+t1289385418
+s1238
+i"FBLoginButton.h"
+i"Facebook.h"
+i<dlfcn.h>
+
+N/Users/loz/Documents/Stegbook/Classes/FBLoginDialog.h
+c000000004CB8747D0000000000000577
+t1287156861
+s1399
+i"FBDialog.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m
+c000000004CB8747D0000000000000BC4
+t1287156861
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FBRequest.h
+c000000004CB8747D0000000000000C0C
+t1287156861
+s3084
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/FBRequest.m
+c000000004CB8747D0000000000002BEA
+t1287156861
+s11242
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/loz/Documents/Stegbook/Classes/Facebook.h
+c000000004CB8747D0000000000000C78
+t1287156861
+s3192
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/loz/Documents/Stegbook/Classes/Facebook.m
+c000000004CB8747D0000000000003DDE
+t1287156861
+s15838
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FacebookSingleton.h
+c000000004CDC4E01000000000000016E
+t1289506305
+s366
+i<Foundation/Foundation.h>
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FacebookSingleton.m
+c000000004CDC4EF9000000000000019D
+t1289506553
+s413
+i"FacebookSingleton.h"
+
+N/Users/loz/Documents/Stegbook/Classes/FirstViewController.h
+c000000004CDA62E100000000000000EC
+t1289380577
+s236
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/FirstViewController.m
+c000000004CDA652A00000000000005B2
+t1289381162
+s1458
+i"FirstViewController.h"
+
+N/Users/loz/Documents/Stegbook/Classes/ImageViewController.h
+c000000004CDD57A7000000000000017B
+t1289574311
+s379
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/ImageViewController.m
+c000000004CDD576600000000000007A3
+t1289574246
+s1955
+i"ImageViewController.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/JSON.h
+c000000004CB8747D00000000000008F9
+t1287156861
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.h
+c000000004CB8747D0000000000000A01
+t1287156861
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m
+c000000004CB8747D000000000000089E
+t1287156861
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.h
+c000000004CB8747D0000000000000916
+t1287156861
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m
+c000000004CB8747D000000000000087D
+t1287156861
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.h
+c000000004CB8747D0000000000000AED
+t1287156861
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m
+c000000004CB8747D0000000000001ABC
+t1287156861
+s6844
+i"SBJSON.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.h
+c000000004CB8747D0000000000000B82
+t1287156861
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m
+c000000004CB8747D0000000000000AC1
+t1287156861
+s2753
+i"SBJsonBase.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.h
+c000000004CB8747D0000000000000C0B
+t1287156861
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m
+c000000004CB8747D00000000000036D0
+t1287156861
+s14032
+i"SBJsonParser.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.h
+c000000004CB8747D0000000000001140
+t1287156861
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m
+c000000004CB8747D0000000000001F26
+t1287156861
+s7974
+i"SBJsonWriter.h"
+
+N/Users/loz/Documents/Stegbook/Classes/LoginNormal.png
+c000000004CB8747D00000000000010AF
+t1287156861
+s4271
+
+N/Users/loz/Documents/Stegbook/Classes/LoginPressed.png
+c000000004CB8747D00000000000010D0
+t1287156861
+s4304
+
+N/Users/loz/Documents/Stegbook/Classes/LoginViewController.h
+c000000004CDA93AE00000000000002AA
+t1289393070
+s682
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+i"FBLoginButton.h"
+
+N/Users/loz/Documents/Stegbook/Classes/LoginViewController.m
+c000000004CDA95D1000000000000114D
+t1289393617
+s4429
+i"LoginViewController.h"
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/LogoutNormal.png
+c000000004CB8747D0000000000000FC4
+t1287156861
+s4036
+
+N/Users/loz/Documents/Stegbook/Classes/LogoutPressed.png
+c000000004CB8747D0000000000001015
+t1287156861
+s4117
+
+N/Users/loz/Documents/Stegbook/Classes/PhotoViewController.h
+c000000004CDD129F0000000000000264
+t1289556639
+s612
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/PhotoViewController.m
+c000000004CDD4E670000000000001D65
+t1289571943
+s7525
+i"PhotoViewController.h"
+i"ImageViewController.h"
+i"StegbookAppDelegate.h"
+
+N/Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.h
+c000000004CDC70930000000000000299
+t1289515155
+s665
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m
+c000000004CDC50290000000000000C89
+t1289506857
+s3209
+i"StegbookAppDelegate.h"
+i"FBConnect.h"
+
+N/Users/loz/Documents/Stegbook/Classes/icon_settings.png
+c000000004AA90A950000000000000310
+t1252592277
+s784
+
+N/Users/loz/Documents/Stegbook/Classes/icon_tag.png
+c000000004AA911B9000000000000020C
+t1252594105
+s524
+
+N/Users/loz/Documents/Stegbook/Classes/icon_tag_add.png
+c000000004AA90F2A000000000000025C
+t1252593450
+s604
+
+N/Users/loz/Documents/Stegbook/Classes/icon_wifi.png
+c000000004AA9134800000000000002C7
+t1252594504
+s711
+
+N/Users/loz/Documents/Stegbook/Classes/untitled.h
+c000000004CDD4EB900000000000000D6
+t1289572025
+s214
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/Classes/untitled.m
+c000000004CDD4EB900000000000005FE
+t1289572025
+s1534
+i"untitled.h"
+
+N/Users/loz/Documents/Stegbook/ConnectView.xib
+c000000004CDAD112000000000000599D
+t1289408786
+s22941
+
+N/Users/loz/Documents/Stegbook/FirstView.xib
+c000000004CDA62E100000000000049D2
+t1289380577
+s18898
+
+N/Users/loz/Documents/Stegbook/ImageView.xib
+c000000004CDD55DA0000000000004026
+t1289573850
+s16422
+
+N/Users/loz/Documents/Stegbook/ImageViewer.xib
+c000000004CDD4F520000000000001643
+t1289572178
+s5699
+
+N/Users/loz/Documents/Stegbook/MainWindow.xib
+c000000004CDA969100000000000090F1
+t1289393809
+s37105
+
+N/Users/loz/Documents/Stegbook/SecondView.xib
+c000000004CDA62E100000000000049D0
+t1289380577
+s18896
+
+N/Users/loz/Documents/Stegbook/StegbookMain.xib
+c000000004CDD50B4000000000000B19A
+t1289572532
+s45466
+
+N/Users/loz/Documents/Stegbook/Stegbook_Prefix.pch
+c000000004CDA62E100000000000000B9
+t1289380577
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app
+t1289574370
+s544
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app.dSYM
+t1289574370
+s102
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/ConnectView.nib
+t1289574368
+s1904
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/DecodeViewController.nib
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/EncodeView.nib
+t1289486711
+s764
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/FBDialog.bundle
+t1289574368
+s102
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/FirstView.nib
+t1289394922
+s1707
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/ImageView.nib
+t1289573855
+s835
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/ImageViewer.nib
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Info.plist
+t1289574368
+s597
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/LoginNormal.png
+t1289574368
+s4271
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/LoginPressed.png
+t1289574368
+s4304
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/LogoutNormal.png
+t1289574368
+s4036
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/LogoutPressed.png
+t1289574368
+s4117
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/MainWindow.nib
+t1289393812
+s3008
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/PkgInfo
+t1289574368
+s8
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/SecondView.nib
+t1289394922
+s1706
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook
+t1289574370
+s153576
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/StegbookMain.nib
+t1289574368
+s3114
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/icon_settings.png
+t1289574368
+s784
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/icon_tag.png
+t1289574368
+s524
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/icon_tag_add.png
+t1289574368
+s604
+
+N/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/icon_wifi.png
+t1289574368
+s711
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumTableViewController.o
+t1289574370
+s66696
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumViewController.o
+t1289475453
+s38064
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ConnectViewController.o
+t1289574369
+s62356
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/DecodeViewController.o
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeView.o
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController-A489F95ACBB6699.o
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController.o
+t1289574370
+s36224
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBDialog.o
+t1289574370
+s105880
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginButton.o
+t1289574370
+s37600
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginDialog.o
+t1289574370
+s40720
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBRequest.o
+t1289574370
+s43016
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Facebook.o
+t1289574370
+s60744
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FacebookSingleton.o
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FirstViewController.o
+t1289393718
+s34336
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ImageViewController.o
+t1289574370
+s39776
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/LoginViewController.o
+t1289393718
+s52936
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSObject+SBJSON.o
+t1289574369
+s8284
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSString+SBJSON.o
+t1289574369
+s8204
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/PhotoViewController.o
+t1289574370
+s68140
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJSON.o
+t1289574369
+s20068
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonBase.o
+t1289574369
+s13200
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonParser.o
+t1289574370
+s35864
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonWriter.o
+t1289574370
+s25540
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Stegbook.LinkFileList
+c000000004CDD57E000000000000008C5
+t1289574368
+s2245
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/StegbookAppDelegate.o
+t1289574369
+s54928
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/main.o
+t1289574369
+s6284
+
+N/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/loz/Documents/Stegbook/main.m
+c000000004CDA62E10000000000000167
+t1289380577
+s359
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/untitled.h
+c000000004CDD4EDF00000000000000D6
+t1289572063
+s214
+i<UIKit/UIKit.h>
+
+N/Users/loz/Documents/Stegbook/untitled.m
+c000000004CDD4EDF00000000000005FE
+t1289572063
+s1534
+i"untitled.h"
+
+N/var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch.gch
+t1289574369
+s15232016
+
+NStegbook-Info.plist
+c000000004CDA9CA600000000000003C9
+t1289395366
+s969
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311267168#311267168#0(0"0(0#1#0"8611286016#0"0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumTableViewController.o /Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.527718
+e311267170.768577
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumTableViewController.o
+x/Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m311267170#311267170#0(0"0(0#0#64"/Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m8611945120#1932"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/AlbumTableViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumTableViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumViewController.o /Users/loz/Documents/Stegbook/Classes/AlbumViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311168253.001662
+e311168253.188585
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumViewController.o
+x/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m: In function '-[AlbumViewController numberOfSectionsInTableView:]':
+o/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m:75: warning: control reaches end of non-void function
+o/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m: In function '-[AlbumViewController tableView:numberOfRowsInSection:]':
+o/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m:81: warning: control reaches end of non-void function
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/AlbumViewController.m311168253#311168253#0(488"/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m: In function '-[AlbumViewController numberOfSectionsInTableView:]':/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m:75: warning: control reaches end of non-void function/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m: In function '-[AlbumViewController tableView:numberOfRowsInSection:]':/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m:81: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function311168253#128#114#0(6@59"/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m311168252#75#0#75#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function311168253#374#114#0(6@59"/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m311168252#81#0#81#0#40"control reaches end of non-void function0(0#0#59"/Users/loz/Documents/Stegbook/Classes/AlbumViewController.m8604275904#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/AlbumViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/AlbumViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ConnectViewController.o /Users/loz/Documents/Stegbook/Classes/ConnectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.696417
+e311267169.859305
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ConnectViewController.o
+x/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m: In function '-[ConnectViewController fbButtonClick:]':
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: 'ConnectViewController' may not respond to '-logout'
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: (Messages without a matching method signature
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: will be assumed to return 'id' and accept
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: '...' as arguments.)
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:47: warning: 'ConnectViewController' may not respond to '-login'
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m: In function '-[ConnectViewController request:didLoad:]':
+o/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:175: warning: format not a string literal and no format arguments
+lSLF07#2@69"Compile /Users/loz/Documents/Stegbook/Classes/ConnectViewController.m311267169#311267169#0(955"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m: In function '-[ConnectViewController fbButtonClick:]':/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: 'ConnectViewController' may not respond to '-logout'/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: (Messages without a matching method signature/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: will be assumed to return 'id' and accept/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:45: warning: '...' as arguments.)/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:47: warning: 'ConnectViewController' may not respond to '-login'/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m: In function '-[ConnectViewController request:didLoad:]':/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m:175: warning: format not a string literal and no format arguments4(22@52"'ConnectViewController' may not respond to '-logout'311267169#118#128#0(6@61"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m311207907#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311267169#246#121#0(6@61"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m311207907#45#0#45#0#0"0(22@51"'ConnectViewController' may not respond to '-login'311267169#580#127#0(6@61"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m311207907#47#0#47#0#26"'*' may not respond to '*'0(22@51"Format not a string literal and no format arguments311267169#827#128#0(6@61"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m311207907#175#0#175#0#51"format not a string literal and no format arguments0(0#0#61"/Users/loz/Documents/Stegbook/Classes/ConnectViewController.m8612445184#1926"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/ConnectViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ConnectViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/DecodeViewController.o /Users/loz/Documents/Stegbook/Classes/DecodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311088322.967745
+e311088323.019179
+r0
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/DecodeViewController.o
+x/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m: In function '-[DecodeViewController numberOfSectionsInTableView:]':
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:74: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:75: warning: control reaches end of non-void function
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m: In function '-[DecodeViewController tableView:numberOfRowsInSection:]':
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:80: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:81: warning: control reaches end of non-void function
+lSLF07#2@68"Compile /Users/loz/Documents/Stegbook/Classes/DecodeViewController.m311088322#311088323#0(712"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m: In function '-[DecodeViewController numberOfSectionsInTableView:]':/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:74: error: expected expression before '<' token/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:75: warning: control reaches end of non-void function/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m: In function '-[DecodeViewController tableView:numberOfRowsInSection:]':/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:80: error: expected expression before '<' token/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m:81: warning: control reaches end of non-void function4(4@36"Expected expression before '<' token311088322#130#109#0(6@60"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m311088319#74#0#74#0#19"expected * before *0(22@40"Control reaches end of non-void function311088322#239#115#0(6@60"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m311088319#75#0#75#0#40"control reaches end of non-void function0(4@36"Expected expression before '<' token311088322#488#109#0(6@60"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m311088319#80#0#80#0#19"expected * before *0(22@40"Control reaches end of non-void function311088322#597#115#0(6@60"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m311088319#81#0#81#0#40"control reaches end of non-void function0(0#0#60"/Users/loz/Documents/Stegbook/Classes/DecodeViewController.m8616207712#1924"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/DecodeViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/DecodeViewController.o1#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeView.o /Users/loz/Documents/Stegbook/Classes/EncodeView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController-A489F95ACBB6699.o /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311088378.975743
+e311088379.090455
+r0
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController-A489F95ACBB6699.o
+x/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController numberOfSectionsInTableView:]':
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:74: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:75: warning: control reaches end of non-void function
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController numberOfSectionsInTableView:]':
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:74: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:75: warning: control reaches end of non-void function
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController tableView:numberOfRowsInSection:]':
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:80: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:81: warning: control reaches end of non-void function
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController tableView:numberOfRowsInSection:]':
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:80: error: expected expression before '<' token
+o/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:81: warning: control reaches end of non-void function
+lSLF07#2@68"Compile /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311088378#311088379#0(712"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController numberOfSectionsInTableView:]':/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:74: error: expected expression before '<' token/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:75: warning: control reaches end of non-void function/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m: In function '-[EncodeViewController tableView:numberOfRowsInSection:]':/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:80: error: expected expression before '<' token/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m:81: warning: control reaches end of non-void function4(4@36"Expected expression before '<' token311088379#130#109#0(6@60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311088376#74#0#74#0#19"expected * before *0(22@40"Control reaches end of non-void function311088379#239#115#0(6@60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311088376#75#0#75#0#40"control reaches end of non-void function0(4@36"Expected expression before '<' token311088379#488#109#0(6@60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311088376#80#0#80#0#19"expected * before *0(22@40"Control reaches end of non-void function311088379#597#115#0(6@60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311088376#81#0#81#0#40"control reaches end of non-void function0(0#0#60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m8626838624#1940"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController-A489F95ACBB6699.o1#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController.o /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.427084
+e311267170.527616
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController.o
+x/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m311267170#311267170#0(0"0(0#0#60"/Users/loz/Documents/Stegbook/Classes/EncodeViewController.m8609621920#1924"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/EncodeViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/EncodeViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBDialog.o /Users/loz/Documents/Stegbook/Classes/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.310801
+e311267170.642169
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBDialog.o
+x/Users/loz/Documents/Stegbook/Classes/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/loz/Documents/Stegbook/Classes/FBDialog.m311267170#311267170#0(0"0(0#0#48"/Users/loz/Documents/Stegbook/Classes/FBDialog.m8612223552#1900"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/FBDialog.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginButton.o /Users/loz/Documents/Stegbook/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.345848
+e311267170.426989
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginButton.o
+x/Users/loz/Documents/Stegbook/Classes/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/loz/Documents/Stegbook/Classes/FBLoginButton.m311267170#311267170#0(0"0(0#0#53"/Users/loz/Documents/Stegbook/Classes/FBLoginButton.m8611345536#1910"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/FBLoginButton.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginDialog.o /Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.254677
+e311267170.345727
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m311267170#311267170#0(0"0(0#0#53"/Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m8610769216#1910"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/FBLoginDialog.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBRequest.o /Users/loz/Documents/Stegbook/Classes/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.076854
+e311267170.254378
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBRequest.o
+x/Users/loz/Documents/Stegbook/Classes/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/loz/Documents/Stegbook/Classes/FBRequest.m311267170#311267170#0(0"0(0#0#49"/Users/loz/Documents/Stegbook/Classes/FBRequest.m8612197888#1902"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/FBRequest.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Facebook.o /Users/loz/Documents/Stegbook/Classes/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.132049
+e311267170.310689
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Facebook.o
+x/Users/loz/Documents/Stegbook/Classes/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/loz/Documents/Stegbook/Classes/Facebook.m311267170#311267170#0(0"0(0#0#48"/Users/loz/Documents/Stegbook/Classes/Facebook.m8611298304#1900"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/Facebook.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FacebookSingleton.o /Users/loz/Documents/Stegbook/Classes/FacebookSingleton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FirstViewController.o /Users/loz/Documents/Stegbook/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311086517.993754
+e311086518.105366
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FirstViewController.o
+x/Users/loz/Documents/Stegbook/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/FirstViewController.m311086517#311086518#0(0"0(0#0#59"/Users/loz/Documents/Stegbook/Classes/FirstViewController.m8614265408#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/FirstViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ImageViewController.o /Users/loz/Documents/Stegbook/Classes/ImageViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.768676
+e311267170.844484
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ImageViewController.o
+x/Users/loz/Documents/Stegbook/Classes/ImageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/loz/Documents/Stegbook/Classes/ImageViewController.m:9:
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.h:19: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m: In function '-[ImageViewController initWithFrame:]':
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: 'UIViewController' may not respond to '-initWithFrame:'
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: (Messages without a matching method signature
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: will be assumed to return 'id' and accept
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: '...' as arguments.)
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:22: warning: 'ImageViewController' may not respond to '-addSubview:'
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267170#311267170#0(947"In file included from /Users/loz/Documents/Stegbook/Classes/ImageViewController.m:9:/Users/loz/Documents/Stegbook/Classes/ImageViewController.h:19: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property/Users/loz/Documents/Stegbook/Classes/ImageViewController.m: In function '-[ImageViewController initWithFrame:]':/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: 'UIViewController' may not respond to '-initWithFrame:'/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: (Messages without a matching method signature/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: will be assumed to return 'id' and accept/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:17: warning: '...' as arguments.)/Users/loz/Documents/Stegbook/Classes/ImageViewController.m:22: warning: 'ImageViewController' may not respond to '-addSubview:'4(22@88"Property 'title' 'copy' attribute does not match super class 'UIViewController' property311267170#85#162#2(7@81"In file included from /Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267170#18446744073709551615#0#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267046#9#0#9#0#0"0(13@151"Property 'title' 'copy' attribute does not match super class 'UIViewController' property in /Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267170#18446744073709551615#0#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267111#19#0#19#0#0"0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267111#19#0#19#0#0"0(22@55"'UIViewController' may not respond to '-initWithFrame:'311267170#361#129#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267046#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311267170#490#119#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267046#17#0#17#0#0"0(22@55"'ImageViewController' may not respond to '-addSubview:'311267170#818#129#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.m311267046#22#0#22#0#26"'*' may not respond to '*'0(0#0#59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.m8612059872#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/ImageViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/ImageViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/LoginViewController.o /Users/loz/Documents/Stegbook/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311086518.034012
+e311086518.202302
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/LoginViewController.o
+x/Users/loz/Documents/Stegbook/Classes/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m: In function '-[LoginViewController fbButtonClick:]':
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: 'LoginViewController' may not respond to '-logout'
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: (Messages without a matching method signature
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: will be assumed to return 'id' and accept
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: '...' as arguments.)
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:51: warning: 'LoginViewController' may not respond to '-login'
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m: At top level:
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:190: warning: property 'firstViewController' requires method '-firstViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:190: warning: property 'firstViewController' requires the method 'setFirstViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086518#311086518#0(1213"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m: In function '-[LoginViewController fbButtonClick:]':/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: 'LoginViewController' may not respond to '-logout'/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: (Messages without a matching method signature/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: will be assumed to return 'id' and accept/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:49: warning: '...' as arguments.)/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:51: warning: 'LoginViewController' may not respond to '-login'/Users/loz/Documents/Stegbook/Classes/LoginViewController.m: At top level:/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:190: warning: property 'firstViewController' requires method '-firstViewController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/loz/Documents/Stegbook/Classes/LoginViewController.m:190: warning: property 'firstViewController' requires the method 'setFirstViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@50"'LoginViewController' may not respond to '-logout'311086518#114#124#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#49#0#49#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311086518#238#119#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#49#0#49#0#0"0(22@49"'LoginViewController' may not respond to '-login'311086518#566#123#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#51#0#51#0#26"'*' may not respond to '*'0(23@13"At top level:311086518#689#75#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#0#0#0#0#0"0(22@146"Property 'firstViewController' requires method '-firstViewController' to be defined - use @synthesize, @dynamic or provide a method implementation311086518#764#221#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#190#0#190#0#0"0(22@153"Property 'firstViewController' requires the method 'setFirstViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation311086518#985#228#0(6@59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m311086417#190#0#190#0#0"0(0#0#59"/Users/loz/Documents/Stegbook/Classes/LoginViewController.m8614502880#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/LoginViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/LoginViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.757763
+e311267169.818662
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m311267169#311267169#0(0"0(0#0#60"/Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m8601357728#1919"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/NSObject+SBJSON.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSString+SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.818773
+e311267169.881580
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m311267169#311267169#0(0"0(0#0#60"/Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m8610847552#1919"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/NSString+SBJSON.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/PhotoViewController.o /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267170.642286
+e311267170.777123
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/PhotoViewController.o
+x/Users/loz/Documents/Stegbook/Classes/PhotoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m:10:
+o/Users/loz/Documents/Stegbook/Classes/ImageViewController.h:19: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m311267170#311267170#0(248"In file included from /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m:10:/Users/loz/Documents/Stegbook/Classes/ImageViewController.h:19: warning: property 'title' 'copy' attribute does not match super class 'UIViewController' property1(22@88"Property 'title' 'copy' attribute does not match super class 'UIViewController' property311267170#86#162#2(7@81"In file included from /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m311267170#18446744073709551615#0#0(6@59"/Users/loz/Documents/Stegbook/Classes/PhotoViewController.m311264743#10#0#10#0#0"0(13@151"Property 'title' 'copy' attribute does not match super class 'UIViewController' property in /Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267170#18446744073709551615#0#0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267111#19#0#19#0#0"0(6@59"/Users/loz/Documents/Stegbook/Classes/ImageViewController.h311267111#19#0#19#0#0"0(0#0#59"/Users/loz/Documents/Stegbook/Classes/PhotoViewController.m8610715584#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/PhotoViewController.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/PhotoViewController.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJSON.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.859430
+e311267169.976654
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJSON.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m311267169#311267169#0(0"0(0#0#51"/Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m8610384864#1901"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/SBJSON.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonBase.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.881680
+e311267169.952421
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonBase.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m311267169#311267169#0(0"0(0#0#55"/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m8609813344#1909"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonBase.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonParser.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.952530
+e311267170.131950
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonParser.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m311267169#311267170#0(0"0(0#0#57"/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m8600491968#1913"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonParser.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonWriter.o /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.976752
+e311267170.076753
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m311267169#311267170#0(0"0(0#0#57"/Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m8598610560#1913"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/JSON/SBJsonWriter.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/StegbookAppDelegate.o /Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.610040
+e311267169.757655
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/StegbookAppDelegate.o
+x/Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m311267169#311267169#0(0"0(0#0#59"/Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m8612419488#1922"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/Classes/StegbookAppDelegate.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/StegbookAppDelegate.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/main.o /Users/loz/Documents/Stegbook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267169.608404
+e311267169.696210
+r1
+xCompileC
+xbuild/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/main.o
+x/Users/loz/Documents/Stegbook/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/loz/Documents/Stegbook/main.m311267169#311267169#0(0"0(0#0#36"/Users/loz/Documents/Stegbook/main.m8612682080#1884"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -include /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch -c /Users/loz/Documents/Stegbook/main.m -o /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/untitled.o /Users/loz/Documents/Stegbook/Classes/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/untitled.o /Users/loz/Documents/Stegbook/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/loz/Documents/Stegbook/Classes/DecodeViewController.xib
+r0
+
+CCompileXIB /Users/loz/Documents/Stegbook/Classes/EncodeView.xib
+s311179510.888158
+e311179511.313882
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/Classes/EncodeView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/loz/Documents/Stegbook/Classes/EncodeView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on EncodeView.
+lSLF07#2@33"CompileXIB Classes/EncodeView.xib311179510#311179511#0(213"/* com.apple.ibtool.document.warnings *//Users/loz/Documents/Stegbook/Classes/EncodeView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on EncodeView.1(22@105"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on EncodeView.311179511#18446744073709551615#0#0(6@52"/Users/loz/Documents/Stegbook/Classes/EncodeView.xib311179491#18446744073709551615#0#18446744073709551615#0#0"0(0#0#52"/Users/loz/Documents/Stegbook/Classes/EncodeView.xib8608197248#614"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/EncodeView.nib /Users/loz/Documents/Stegbook/Classes/EncodeView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/ConnectView.xib
+s311267168.163839
+e311267168.644373
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/ConnectView.xib
+lSLF07#2@26"CompileXIB ConnectView.xib311267168#311267168#0(0"0(0#0#45"/Users/loz/Documents/Stegbook/ConnectView.xib8611044736#608"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/ConnectView.nib /Users/loz/Documents/Stegbook/ConnectView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/FirstView.xib
+s311087722.205121
+e311087722.752714
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib311087722#311087722#0(0"0(0#0#43"/Users/loz/Documents/Stegbook/FirstView.xib8634288544#604"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/FirstView.nib /Users/loz/Documents/Stegbook/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/ImageView.xib
+s311266654.765268
+e311266655.132525
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/ImageView.xib
+lSLF07#2@24"CompileXIB ImageView.xib311266654#311266655#0(0"0(0#0#43"/Users/loz/Documents/Stegbook/ImageView.xib8610655712#604"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/ImageView.nib /Users/loz/Documents/Stegbook/ImageView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/ImageViewer.xib
+r0
+
+CCompileXIB /Users/loz/Documents/Stegbook/MainWindow.xib
+s311086611.778963
+e311086612.290095
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/loz/Documents/Stegbook/MainWindow.xib:106: warning: The 'view' outlet of 'Tab Bar Controller' is connected to 'View', but this view controller is not intended to have its view set in this manner.
+lSLF07#2@25"CompileXIB MainWindow.xib311086611#311086612#0(244"/* com.apple.ibtool.document.warnings *//Users/loz/Documents/Stegbook/MainWindow.xib:106: warning: The 'view' outlet of 'Tab Bar Controller' is connected to 'View', but this view controller is not intended to have its view set in this manner.1(22@143"The 'view' outlet of 'Tab Bar Controller' is connected to 'View', but this view controller is not intended to have its view set in this manner.311086612#18446744073709551615#0#0(6@44"/Users/loz/Documents/Stegbook/MainWindow.xib311086609#106#0#106#0#0"0(0#0#44"/Users/loz/Documents/Stegbook/MainWindow.xib8615586144#606"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/MainWindow.nib /Users/loz/Documents/Stegbook/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/SecondView.xib
+s311087721.648458
+e311087722.257598
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib311087721#311087722#0(0"0(0#0#44"/Users/loz/Documents/Stegbook/SecondView.xib8640738464#606"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/SecondView.nib /Users/loz/Documents/Stegbook/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/loz/Documents/Stegbook/StegbookMain.xib
+s311267168.155407
+e311267168.733943
+r1
+xCompileXIB
+x/Users/loz/Documents/Stegbook/StegbookMain.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/loz/Documents/Stegbook/StegbookMain.xib:196: warning: The 'view' outlet of 'Image View Controller' is connected to 'Image View' but 'Image View Controller' already has a 'Image View' child fulfilling this role.
+lSLF07#2@27"CompileXIB StegbookMain.xib311267168#311267168#0(259"/* com.apple.ibtool.document.warnings *//Users/loz/Documents/Stegbook/StegbookMain.xib:196: warning: The 'view' outlet of 'Image View Controller' is connected to 'Image View' but 'Image View Controller' already has a 'Image View' child fulfilling this role.1(22@156"The 'view' outlet of 'Image View Controller' is connected to 'Image View' but 'Image View Controller' already has a 'Image View' child fulfilling this role.311267168#18446744073709551615#0#0(6@46"/Users/loz/Documents/Stegbook/StegbookMain.xib311265332#196#0#196#0#0"0(0#0#46"/Users/loz/Documents/Stegbook/StegbookMain.xib8612396960#610"    cd /Users/loz/Documents/Stegbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/StegbookMain.nib /Users/loz/Documents/Stegbook/StegbookMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/FBDialog.bundle Classes/FBDialog.bundle
+s311267168.156129
+e311267168.177290
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/FBDialog.bundle
+xClasses/FBDialog.bundle
+lSLF07#2@28"Copy Classes/FBDialog.bundle311267168#311267168#0(0"0(0#0#53"/Users/loz/Documents/Stegbook/Classes/FBDialog.bundle8612165472#503"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/FBDialog.bundle /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/LoginNormal.png Classes/LoginNormal.png
+s311267168.156794
+e311267168.168669
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/LoginNormal.png
+xClasses/LoginNormal.png
+lSLF07#2@28"Copy Classes/LoginNormal.png311267168#311267168#0(0"0(0#0#53"/Users/loz/Documents/Stegbook/Classes/LoginNormal.png8611926592#503"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/LoginNormal.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/LoginPressed.png Classes/LoginPressed.png
+s311267168.158428
+e311267168.169407
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/LoginPressed.png
+xClasses/LoginPressed.png
+lSLF07#2@29"Copy Classes/LoginPressed.png311267168#311267168#0(0"0(0#0#54"/Users/loz/Documents/Stegbook/Classes/LoginPressed.png8611617088#504"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/LoginPressed.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/LogoutNormal.png Classes/LogoutNormal.png
+s311267168.160168
+e311267168.192609
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/LogoutNormal.png
+xClasses/LogoutNormal.png
+lSLF07#2@29"Copy Classes/LogoutNormal.png311267168#311267168#0(0"0(0#0#54"/Users/loz/Documents/Stegbook/Classes/LogoutNormal.png8611343968#504"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/LogoutNormal.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/LogoutPressed.png Classes/LogoutPressed.png
+s311267168.162035
+e311267168.173506
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/LogoutPressed.png
+xClasses/LogoutPressed.png
+lSLF07#2@30"Copy Classes/LogoutPressed.png311267168#311267168#0(0"0(0#0#55"/Users/loz/Documents/Stegbook/Classes/LogoutPressed.png8611103872#505"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/LogoutPressed.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/icon_settings.png Classes/icon_settings.png
+s311267168.647290
+e311267168.658930
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/icon_settings.png
+xClasses/icon_settings.png
+lSLF07#2@30"Copy Classes/icon_settings.png311267168#311267168#0(0"0(0#0#55"/Users/loz/Documents/Stegbook/Classes/icon_settings.png8611663552#505"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/icon_settings.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/icon_tag.png Classes/icon_tag.png
+s311267168.649063
+e311267168.658323
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/icon_tag.png
+xClasses/icon_tag.png
+lSLF07#2@25"Copy Classes/icon_tag.png311267168#311267168#0(0"0(0#0#50"/Users/loz/Documents/Stegbook/Classes/icon_tag.png8611514368#500"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/icon_tag.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/icon_tag_add.png Classes/icon_tag_add.png
+s311267168.645566
+e311267168.655666
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/icon_tag_add.png
+xClasses/icon_tag_add.png
+lSLF07#2@29"Copy Classes/icon_tag_add.png311267168#311267168#0(0"0(0#0#54"/Users/loz/Documents/Stegbook/Classes/icon_tag_add.png8611947232#504"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/icon_tag_add.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CCpResource build/Debug-iphonesimulator/Stegbook.app/icon_wifi.png Classes/icon_wifi.png
+s311267168.644468
+e311267168.651066
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Stegbook.app/icon_wifi.png
+xClasses/icon_wifi.png
+lSLF07#2@26"Copy Classes/icon_wifi.png311267168#311267168#0(0"0(0#0#51"/Users/loz/Documents/Stegbook/Classes/icon_wifi.png8612213344#501"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loz/Documents/Stegbook/Classes/icon_wifi.png /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
+CGenerateDSYMFile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app.dSYM /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook
+s311267170.891518
+e311267170.948485
+r1
+xGenerateDSYMFile
+x/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app.dSYM
+x/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Stegbook.app.dSYM build/Debug-iphonesimulator/Stegbook.app/Stegbook311267170#311267170#0(0"0(0#0#79"/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook8611062016#421"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook -o /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app.dSYM0#
+
+CLd /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook normal i386
+s311267170.844578
+e311267170.891418
+r1
+xLd
+x/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook
+xnormal
+xi386
+lSLF07#2@84"Link /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook311267170#311267170#0(0"0(0#0#0"8611656416#922"    cd /Users/loz/Documents/Stegbook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -filelist /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Objects-normal/i386/Stegbook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Stegbook0#
+
+CProcessInfoPlistFile /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Info.plist Stegbook-Info.plist
+s311267168.141739
+e311267168.155320
+r1
+xProcessInfoPlistFile
+x/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Info.plist
+xStegbook-Info.plist
+lSLF07#2@27"Process Stegbook-Info.plist311267168#311267168#0(0"0(0#0#49"/Users/loz/Documents/Stegbook/Stegbook-Info.plist8600964480#517"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Stegbook-Info.plist -genpkginfo /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app/Info.plist0#
+
+CProcessPCH /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch.gch Stegbook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311267168.734066
+e311267169.608122
+r1
+xProcessPCH
+x/var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch.gch
+xStegbook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Stegbook_Prefix.pch311267168#311267169#0(0"0(0#0#49"/Users/loz/Documents/Stegbook/Stegbook_Prefix.pch8610878880#1784"    cd /Users/loz/Documents/Stegbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-generated-files.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-own-target-headers.hmap -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-all-target-headers.hmap -iquote /Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/Stegbook-project-headers.hmap -F/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator -I/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/include -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources/i386 -I/Users/loz/Documents/Stegbook/build/Stegbook.build/Debug-iphonesimulator/Stegbook.build/DerivedSources -c /Users/loz/Documents/Stegbook/Stegbook_Prefix.pch -o /var/folders/bh/bhTGjPT3HGm6tnSGjlstBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Stegbook_Prefix-cqkefmsikfymibalvzwdillmboiq/Stegbook_Prefix.pch.gch0#
+
+CTouch /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app
+s311267170.948575
+e311267170.951883
+r1
+xTouch
+x/Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app
+lSLF07#2@76"Touch /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app311267170#311267170#0(0"0(0#0#0"8612053792#323"    cd /Users/loz/Documents/Stegbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/loz/Documents/Stegbook/build/Debug-iphonesimulator/Stegbook.app0#
+
